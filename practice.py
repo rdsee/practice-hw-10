@@ -58,3 +58,17 @@
 # my_date = dt.datetime.strptime('12/02/2000', '%d/%m/%Y') #Возмонжность вывода даты в подобном формате
 # print(my_date)
 
+# from datetime import datetime, timezone, timedelta
+#
+# #naive
+# naive = datetime.now()
+# print("Naive time: ", naive)
+#
+# #UTC aware
+# UTC = datetime.now(timezone.utc)
+# print("UTC time: ", UTC)
+#
+# #Creating a datetime with JST (Japan) Timezone
+# jst_dateTime = datetime.now(timezone(timedelta(hours=+9), 'JST'))
+# print("JST time: ", jst_dateTime)
+
