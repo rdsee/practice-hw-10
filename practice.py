@@ -43,3 +43,18 @@
 # number = number.quantize(Decimal('1.0000'))
 # print(number)
 
+# import datetime as dt
+#
+# print(dt.date.today())
+# print(dt.date(2022, 11, 12))
+# print(dt.time())
+# print(dt.time(10, 12, 10))
+# print(dt.time(11, 12))
+#
+# print(dt.datetime.now()) #date + hours
+# dt_now = dt.datetime.now()
+# print(dt.datetime) #prints class
+#
+# my_date = dt.datetime.strptime('12/02/2000', '%d/%m/%Y') #Возмонжность вывода даты в подобном формате
+# print(my_date)
+
