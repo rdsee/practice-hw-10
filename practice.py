@@ -24,3 +24,22 @@
 # print(math.factorial(10)) #функция факториала
 # print(math.pow(2 , 4)) #перевод в степень
 # print(math.sqrt(9)) #квадратный корень
+
+# from decimal import *
+# number = 0.1 + 0.1 + 0.1
+# print(number)
+#
+# number = Decimal('0.1') #Необходимо для вычисления округленного дробного числа.
+# number = number + number + number
+# print(number)
+#
+# number = Decimal('0.333')
+# print(number)
+# number = number.quantize(Decimal('1.00')) #Приводит число к нужному дробному окончанию после запятой.
+# print(number)
+#
+# number = Decimal('0.32345234234')
+# print(number)
+# number = number.quantize(Decimal('1.0000'))
+# print(number)
+
