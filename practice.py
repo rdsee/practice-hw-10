@@ -86,3 +86,19 @@
 # numbers_positive_2 = [num for num in numbers if num > 0]
 # print(numbers_positive_2)
 
+#Dictionary comprehensive
+# my_dict_formated = {i: i * 2 for i in range(10) if i > 2}
+# print(my_dict_formated)
+
+#Generator function
+# generator = (i for i in range(5))
+# print(generator)
+# print(next(generator))
+# print(next(generator))
+# print(next(generator))
+# print(next(generator))
+# print(next(generator))
+
+#for i in generator:
+    #print(i)
+
