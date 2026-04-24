@@ -102,3 +102,19 @@
 #for i in generator:
     #print(i)
 
+# def create_generator():
+#     number = 1
+#     while True:
+#         yield number
+#         number += 1
+#
+# my_gen = create_generator()
+# print(my_gen)
+# try:
+#     for i in my_gen:
+#         print(i)
+#         if i > 10:
+#             my_gen.close()
+# except Exception as e:
+#     print(e)
+
