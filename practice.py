@@ -72,3 +72,17 @@
 # jst_dateTime = datetime.now(timezone(timedelta(hours=+9), 'JST'))
 # print("JST time: ", jst_dateTime)
 
+#Генераторы коллекций
+# v1
+# numbers = [-1, 2, -3, 4, -5, 6, -7, 7]
+# numbers_positive = []
+# for num in numbers:
+#     if num > 0:
+#         numbers_positive.append(num)
+#
+# print(numbers_positive)
+#
+# # v2
+# numbers_positive_2 = [num for num in numbers if num > 0]
+# print(numbers_positive_2)
+
